@@ -6,5 +6,5 @@ a3 = input("Digite o nome do terceiro aluno: ")
 a4 = input("Digite o nome do quarto aluno: ")
 
 alunos = [a1,a2,a3,a4]
-random.shuffle(alunos)
+shuffle(alunos)
 print (alunos)
