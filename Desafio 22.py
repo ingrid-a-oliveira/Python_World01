@@ -1,0 +1,12 @@
+nome = input("Digite o nome da pessoa amada: ").strip()
+print(nome.lower())
+print(nome.upper())
+list_name = nome.split()
+firstname = list_name[0]
+junto= (nome.replace(" ",""))
+print(junto)
+print(len(firstname))
+print(len(list_name))
+print(len(junto))
+print("{}".format(len(nome)-nome.count(' ')))
+print("{}".format(nome.find(' ')))
